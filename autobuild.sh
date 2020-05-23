@@ -1,0 +1,7 @@
+
+
+set -x
+sudo rm -rf `pwd`/build/*
+cd `pwd`/build &&
+cmake .. &&
+make
